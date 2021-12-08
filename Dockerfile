@@ -26,4 +26,3 @@ COPY --from=build /usr/local/app/dist/to-do-list /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 80
-
